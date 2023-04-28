@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height:11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 200;
+}
+
+.All_Navs{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type:none ;
+}
+
+li{
+    margin-left: 20px;
+}
+
+button{
+    /* width: 130px;
+    height: 50px; */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+.btn{
+    background-color: blue;
+    border:solid blue 2px;
+}
+
+.btn2{
+    border:solid blue 2px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Hero_page{
+    min-height: 100vh;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+img{
+    height: 70%;
+    width: 520px;
+    border-radius: 100px 0px 100px 0px ;
+}
+
+.wrapper{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.h1{
+    font-size: 50px;
+    word-wrap: break-word;
+    width: 70%;
+}
+
+p{
+    font-size:20px;
+    width: 70%;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+.my_btn{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.Right{
+    width: 50%;
+}
